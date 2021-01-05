@@ -1,2 +1,2 @@
-# raspberyy-pi
+# raspbery-pi
 raspberry pi用のリポジスト
