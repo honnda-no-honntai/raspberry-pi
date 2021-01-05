@@ -56,3 +56,4 @@ with open("/dev/input/js0","rb")as f:
                 use_pigpio(500)
 
        
+#vscodeでいつかRPi.GPIOもpigopioライブラリも認識される日がきますように
