@@ -18,7 +18,7 @@ change_pecentage = 1.0
 
 change_pecentage_count = 1.0
 
-#ここで、何％の出力で回転させるかを決める
+
 with open("/dev/input/js0","rb")as f:
     while True:
         a=f.read(8)
@@ -55,5 +55,4 @@ with open("/dev/input/js0","rb")as f:
                 change_pecentage_count = 1
                 use_pigpio(500)
 
-       
-#vscodeでいつかRPi.GPIOもpigopioライブラリも認識される日がきますように
+      
