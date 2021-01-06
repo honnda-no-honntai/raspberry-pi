@@ -10,8 +10,11 @@ motor1_dir =
 motor2_pwm = 
 motor2_dir =
 
+print("please input how_times")
 how_times = int(input())
-sleep_time = int(input())#after sensor sense time
+print("plase input sleep_time that about motor acceleration")
+sleep_time = int(input())
+
 interbal = int(input())
 #Stick sensor_pin+/- into  2 or 4 and 6
 
