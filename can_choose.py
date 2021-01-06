@@ -11,7 +11,7 @@ motor2_pwm =
 motor2_dir =
 
 how_times = int(input())
-sleep_time = int(input()) #after sensor senses time
+sleep_time = int(input())#after sensor sense time
 interbal = int(input())
 #Stick sensor_pin+/- into  2 or 4 and 6
 
