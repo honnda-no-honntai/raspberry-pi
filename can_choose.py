@@ -49,7 +49,7 @@ try:
 
     while i < how_times
 
-        if(GPIO.input(sensor_out_recive) == GPIO.HIGH):
+        if(GPIO.input(sensor_out_recive) == GPIO.LOW):
 
             print(str(cnt) +  "times")
             count = count + 1
